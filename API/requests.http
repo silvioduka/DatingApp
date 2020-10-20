@@ -1,0 +1,18 @@
+### Get all users
+GET https://localhost:5001/api/users
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJib2IiLCJuYmYiOjE2MDM0NTc2ODIsImV4cCI6MTYwNDA2NjA4MiwiaWF0IjoxNjAzNDU3NjgyfQ.alYB4Zf3qy5RsrGocCG9v85--2fnHriQSl21SrObYhLvwtqQRl1pFXfzq-ktYT6eAh1X3rL13TFRQTt2sMBA4A
+
+### Get single user
+GET https://localhost:5001/api/users/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJib2IiLCJuYmYiOjE2MDM0NTc2ODIsImV4cCI6MTYwNDA2NjA4MiwiaWF0IjoxNjAzNDU3NjgyfQ.alYB4Zf3qy5RsrGocCG9v85--2fnHriQSl21SrObYhLvwtqQRl1pFXfzq-ktYT6eAh1X3rL13TFRQTt2sMBA4A
+
+### Login
+POST https://localhost:5001/api/account/login
+Content-Type: application/json
+
+{
+	"username": "bob",
+	"password": "PaSSw0rd"
+}
+
+### 
