@@ -2,5 +2,15 @@
     "files.associations": {
         "*.yaml": "home-assistant"
     },
-    "maven.view": "hierarchical"
+    "maven.view": "hierarchical",
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.addAnnotationTextPrefixes": true,
+    "errorLens.fontWeight": "600",
+    "errorLens.fontStyleItalic": true,
+    "errorLens.gutterIconSet": "defaultOutline",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "info",
+        "hint"
+    ]
 }
