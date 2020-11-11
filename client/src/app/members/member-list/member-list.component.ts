@@ -3,9 +3,7 @@ import { MembersService } from './../../_services/members.service';
 import { Component, OnInit } from '@angular/core';
 import { Member } from 'src/app/_models/Member';
 import { Pagination } from 'src/app/_models/pagination';
-import { AccountService } from 'src/app/_services/account.service';
 import { User } from 'src/app/_models/user';
-import { take } from 'rxjs/operators';
 
 @Component({
   selector: 'app-member-list',
