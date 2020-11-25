@@ -4,13 +4,13 @@
     },
     "maven.view": "hierarchical",
     "errorLens.gutterIconsEnabled": true,
-    "errorLens.addAnnotationTextPrefixes": true,
     "errorLens.fontWeight": "600",
     "errorLens.fontStyleItalic": true,
     "errorLens.gutterIconSet": "defaultOutline",
-    "errorLens.enabledDiagnosticLevels": [
-        "error",
-        "info",
-        "hint"
-    ]
+    "errorLens.addAnnotationTextPrefixes": true,
+    "errorLens.exclude": [
+        "expected call-signature"
+    ],
+    "errorLens.followCursorMore": 1,
+    "errorLens.margin": "5ch"
 }
