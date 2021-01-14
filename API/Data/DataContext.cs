@@ -1,15 +1,16 @@
-using API.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+
+using API.Entities;
 
 namespace API.Data
 {
-    public class DataContext : DbContext
+    public class DataContext : IdentityDbContext<AppUser, AppRole, int>
     {
         public DataContext(DbContextOptions options) : base(options)
         {
         }
 
-        public DbSet<AppUser> Users { get; set; }
         public DbSet<UserLike> Likes { get; set; }
         public DbSet<Message> Messages { get; set; }
 
